@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tapan.digitallibraryadmin">
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity android:name=".activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddBookActivity" />
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".login.ForgotPasswordActivity" />
+        <activity android:name=".IssueBookActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".ReturnBookActivity" />
+        <activity android:name=".LibrarianInfoActivity" />
+        <activity
+            android:name=".Barcode.BarcodeCaptureActivity"
+            android:label="Read QR Code" />
+        <activity
+            android:name=".activity.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- <activity android:name=".activity.SplashScreenActivity"></activity> -->
+        <activity android:name=".activity.BookInfoActivity" />
+        <activity android:name=".activity.UserInfoActivity"></activity>
+    </application>
+
+</manifest>

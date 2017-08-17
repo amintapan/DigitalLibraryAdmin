@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "867246553999",
+    "firebase_url": "https://digitallibraryadmin.firebaseio.com",
+    "project_id": "digitallibraryadmin",
+    "storage_bucket": "digitallibraryadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867246553999:android:87b5f93a4581b371",
+        "android_client_info": {
+          "package_name": "com.example.tapan.digitallibraryadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867246553999-pb9n80iu0tgudf856idei8jpqscd737a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tapan.digitallibraryadmin",
+            "certificate_hash": "1b00c4d1d44ffa28b42572c14d8a271a19ce394b"
+          }
+        },
+        {
+          "client_id": "867246553999-vnnebc0b2rkkc4j5a118qv0eqfa3fi1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKwn30FnW0E9Hi0DY6t3UelTSI0-Nyq4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867246553999-vnnebc0b2rkkc4j5a118qv0eqfa3fi1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
